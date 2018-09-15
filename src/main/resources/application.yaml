@@ -1,0 +1,16 @@
+# DATASOURCE
+#mybatis:
+#    typeAliasesPackage:  com.github.jeanXuQiong.mybatis.**.entity
+#    mapperLocations: classpath:/com/modou/**/mapper/*.xml
+#    configLocation: classpath:/mybatis-config.xml
+logging:
+    level:
+       com.ibatis:DEBUG
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: qwerasdf
+#mybatis:
+#  mapper-locations: classpath:**/dao/*.xml
